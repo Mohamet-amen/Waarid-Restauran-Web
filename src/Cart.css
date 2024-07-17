@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.order-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.order-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.order-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.order-item:hover {
+  transform: scale(1.05);
+}
+
+.order-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.order-item-details h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.order-item-details p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.order-item .delete-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-item .delete-button:hover {
+  background-color: #e5533d;
+}
+
+.order-total {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.order-total h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.checkout-button {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #e5533d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .order-item {
+    max-width: 100%;
+  }
+
+  .order-container {
+    padding: 10px;
+  }
+
+  .checkout-button {
+    width: 100%;
+    padding: 15px;
+  }
+}
