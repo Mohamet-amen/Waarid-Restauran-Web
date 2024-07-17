@@ -1,6 +1,7 @@
 # React + Vite
-this is the deploy of my project 
-waarid-restauran-bdjxv4x25-mohametamens-projects.vercel.app
+This is the deploy of my project:
+- [waarid-restauran-bdjxv4x25-mohametamens-projects.vercel.app](https://waarid-restauran-bdjxv4x25-mohametamens-projects.vercel.app)
+- [waarid-restauran-l6kum28ph-mohametamens-projects.vercel.app](http://waarid-restauran-l6kum28ph-mohametamens-projects.vercel.app)
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
